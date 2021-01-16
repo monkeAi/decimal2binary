@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style:none;
+}
+
+body{
+    background-color: #383838;
+    color: rgb(255, 255, 255);
+    
+}
+
+input[type=number]{
+    width: 100%;
+    height: 80px;
+    background-color: #5c5c5c;
+    margin: 5px;
+    border: none; 
+    font-size: 30px;
+    font-family: 'Baloo 2';
+    color: rgb(255, 255, 255);
+}
+
+#var1 {
+    width: 100%;
+    height: 80px;
+    background-color: #2cd163;
+    border: none; 
+    font-size: 40px;
+    margin:5px;
+    font-family: 'Baloo 2';
+    color: rgb(255, 255, 255);
+    
+    
+}
+#result{
+    text-align: center;
+    font-family: 'Baloo 2';
+    font-size: 30px;
+}
+
+#var2{
+    text-align: center;
+    font-family: 'Baloo 2';
+    font-size: 30px;
+}
+
+
+
