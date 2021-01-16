@@ -14,9 +14,19 @@ function buttonPressed(){
     }*/
     
 }
+function itGameOnBaby(){
+    var cum = document.getElementById("mySound");
+    cum.volume = 0.05;
+    cum.play();
+
+}
+
 function D2B(ourNum){
     var ostanek = [];
     var currentNum = ourNum;
+    if (ourNum == 69){
+        itGameOnBaby();
+    }
     while (currentNum != 0){
         currentOst = currentNum % 2;
         currentNum = Math.floor(currentNum / 2);
